@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.con{
+    width: 330px;
+    height: 1355px ;
+}
+.s1{
+    width:330px ; 
+    text-align: center;
+}
+.s11{
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    padding: 20px;
+    width: 280px;
+}
+.s12{
+    font-size: 15px;
+    width: 290px;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.4;
+}
+.s2{
+    margin-top: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+.s21{
+    width: 327px;
+    background-color:hsl(300, 24%, 96%);
+    padding: 16px 70px;
+    border-radius: 10px;
+}
+.s21text{
+    margin-top: 12px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.s3{
+    display: flex   ;
+    flex-direction: column;
+    gap: 16px;
+}
+.s31{
+    background-color: hsl(300, 43%, 22%);
+    width: 327px;
+    height: 248px;
+    padding: 41px 32px;
+    border-radius: 10px;
+
+}
+.s311{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    line-height: 1.2;
+
+
+}
+   
+.s311img{
+    width: 41px;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+.s311p{
+    font-weight: bold;
+
+    color: hsl(0, 0%, 100%, 0.9);
+}
+.s311span{
+    color: hsl(333, 80%, 67%,0.9);
+    font-weight: lighter;
+}
+.s312{
+    color: hsl(0, 0%, 100%, 0.9);
+    line-height: 1.4;
+}
+
+@media (min-width:768px) {
+    body{
+        background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain;
+        background-position: bottom 30vw right 40vh, top 1vw left 55vh;
+    }
+.con{
+    width: 1115px;
+    height: 577px;
+}
+.con1{
+    display: flex;
+}
+
+.s1{
+    margin-right: 160px;
+    text-align: left;
+}
+.s11{
+    font-size: 47px;
+    width: 330px;
+    padding-left: 0; 
+
+}
+.s12{
+    font-size: 17px;
+    width: 390px;
+}
+
+.s2{
+    width: 540px;
+    margin-bottom: 75px;
+}
+.s21{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    text-align: center;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
+
+.s21text{  
+    font-size: 18px;
+}
+
+.s2a {
+    margin-left: 50px;
+}
+.s2b {
+    margin-left: 95px;
+}
+
+.s3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.s3a{
+    margin-top: 20px;
+}
+.s3b{
+    margin-top: 40px;
+}
+
+}
